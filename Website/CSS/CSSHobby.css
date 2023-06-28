@@ -1,0 +1,51 @@
+/* Hobby page wallpapers */
+.HobbyImg1{
+    display: grid;
+    grid-area: "1";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/HobbyImg1.jpg");
+    width:99%;
+    min-height: 600px;
+    border: 10px solid white;
+}
+.HobbyImg2{
+    display: grid;
+    grid-area: "2";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/HobbyImg2.png");
+    width:99%;
+    min-height: 600px;
+    border: 10px solid white;
+}
+.HobbyImg3{
+    display: grid;
+    grid-area: "3";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/HobbyImg3.jpg");
+    width:99%;
+    min-height: 600px;
+    border: 10px solid white;
+}
+.HobbyImg4{
+    display: grid;
+    grid-area: "4";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/HobbyImg4.png");
+    width:99%;
+    min-height: 600px;
+    border: 10px solid white;
+}
+.HobbyImg5{
+    display: grid;
+    grid-area: "5";
+            opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/HobbyImg5.png");
+    width:99%;
+    min-height: 600px;
+    border: 10px solid white;
+}

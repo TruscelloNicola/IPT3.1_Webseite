@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <!--The scroll down effect is not worth it here.-->
+
+    <link rel="stylesheet" href="CSS/CSS.css">
+    <title>Landing Page</title>
+    
+</head>
+
+ 
+<body onload="fadeIn();" class="default">
+
+
+<!--The background initialiser-->
+
+    <div id="Table" style="position:absolute; z-index:-10;" > 
+
+        <div class="WallpaperLeft" ></div>
+
+        <div class="WallpaperMiddle" ></div>
+
+        <div class="WallpaperRight" ></div>
+
+    </div>
+
+<!--Transtion effect-->
+
+
+<div id="loader">
+
+<!-- Titlebar -->
+    <div class="fullcol-S ">
+        <h1 style="position:absolute; z-index:10;" class="boxed fullcol-S defaultTitle">LANDING PAGE</h1>
+    </div>
+<!--Geometric design-->
+
+    <div class="triangle-up" style="z-index:-4; position:absolute; right: 0;margin-top:-10"></div>
+    <div class="triangle-down" style="z-index:-5; position:absolute; right: 0;margin-top:-10"></div>
+
+<!--Middle-content-->
+
+        <div style="position:absolute; z-index: 10; padding-left:10%; padding-top: 300px; ">
+
+            <div style="width: 80%; padding: 2%;" class="boxed">
+                <h2>Welcome to my page</h2>
+        
+                <p>
+                Welcome to my website. Everything from what my hobbies are, all the way to what they exactly involve, can be found here.
+                <br><br>
+                This website contains 4 pages excluding the Landing page.                <br><br>
+                My hobbies can be located underneath, as well as my hardware focused page. The CV page is linked below.                 <br><br>
+                A more informational approach to hardware can be found in the hardware motivation page linked underneath.                 
+                </p>
+            </div>
+ 
+
+<!-- buttons -->
+            <ul>
+                <li style = "display: inline;" ><a href="./Persona.html"><button class="custom-button">About myself...</button></a></li>
+                <li style = "display: inline;" ><a href="./Hobbyrev.html"><button class="custom-button">Hobbies</button></a></li>
+                <li style = "display: inline;" ><a href="./HardwareMotivation.html"><button class="custom-button">Hardware</button></a></li>
+            </ul>
+        </div>
+ 
+</div>
+
+<script src="Javascript/JavaScriptFade.js"></script>
+</body>
+</html>
+
+
+

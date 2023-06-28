@@ -1,0 +1,62 @@
+/* "CV" Page wallpapers */
+.CVImg1{
+    display: grid;
+    grid-area: "1";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/CVImg1.jpg");
+    width:100%;
+    height: 750px;
+    border: 10px solid white;
+background-color: #666;
+}
+
+    .CVImg2{
+    display: grid;
+    grid-area: "2";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/CVImg2.jpg");
+    width:100%;
+    height: 380px;
+    border: 10px solid white;
+    rotate:20%;
+}
+
+    .CVImg3{
+    display: grid;
+    grid-area: "3";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/CVImg3.jpg");
+    width:100%;
+    height: 700px;
+    border: 10px solid white;
+}
+
+/*Diagonal Bar for image*/
+.DiagonalBar-top {
+    height: 100px;
+    width: 500px;
+    background-color: rgb(42, 105, 0);
+    transform: rotate(20deg);
+    margin-left: 70%
+}
+.DiagonalBar-bottom {
+height: 75px;
+width: 500px;
+background-color: rgb(148, 255, 76);
+transform: rotate(20deg);
+margin-left: 70%
+}
+
+/*Text outline*/
+.OutLineValue
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}

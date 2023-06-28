@@ -1,0 +1,33 @@
+/* Hardware Motivation page wallpapers */
+.HardwareImg1{
+    display: grid;
+    grid-area: "1";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/HardMotImg1.png");
+    width:100%;
+    height: 775px;
+    border: 10px solid white;
+}
+
+    .HardwareImg2{
+    display: grid;
+    grid-area: "2";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/HardMotImg2.png");
+    width:100%;
+    height: 575px;
+    border: 10px solid white;
+}
+
+    .HardwareImg3{
+    display: grid;
+    grid-area: "3";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/HardMotImg3.jpg");
+    width:100%;
+    height: 700px;
+    border: 10px solid white;
+}

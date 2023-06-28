@@ -1,0 +1,104 @@
+/*Component wallpapers*/
+
+.ComponentImg1{
+    display: grid;
+    grid-area: "1";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/ComponentImg\ \(1\).png");
+    width:99%;
+    height: 775px;
+    border: 10px solid white;
+}
+
+    .ComponentImg2{
+    display: grid;
+    grid-area: "2";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/ComponentImg\ \(2\).png");
+    width:99%;
+    height: 575px;
+    border: 10px solid white;
+}
+
+    .ComponentImg3{
+    display: grid;
+    grid-area: "3";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/ComponentImg\ \(3\).png");
+    width:99%;
+    height: 700px;
+    border: 10px solid white;
+}
+.ComponentImg4{
+    display: grid;
+    grid-area: "4";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/ComponentImg\ \(4\).png");
+    width:99%;
+    height: 700px;
+    border: 10px solid white;
+}
+.ComponentImg5{
+    display: grid;
+    grid-area: "5";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/ComponentImg\ \(5\).png");
+    width:99%;
+    height: 700px;
+    border: 10px solid white;
+}
+.ComponentImg6{
+    display: grid;
+    grid-area: "5";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/ComponentImg\ \(6\).png");
+    width:99%;
+    height: 700px;
+    border: 10px solid white;
+}
+.ComponentImg7{
+    display: grid;
+    grid-area: "5";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/ComponentImg\ \(7\).png");
+    width:99%;
+    height: 700px;
+    border: 10px solid white;
+}
+.ComponentImg8{
+    display: grid;
+    grid-area: "5";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/ComponentImg\ \(8\).png");
+    width:99%;
+    height: 700px;
+    border: 10px solid white;
+}
+.ComponentImg9{
+    display: grid;
+    grid-area: "5";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/ComponentImg\ \(9\).png");
+    width:99%;
+    height: 700px;
+    border: 10px solid white;
+}
+.ComponentImg10{
+    display: grid;
+    grid-area: "5";
+    opacity: 0.5;
+    background-size: cover;
+    background-image: url("Assets_Documents/ComponentImg\ \(10\).png");
+    width:99%;
+    height: 700px;
+    border: 10px solid white;
+}

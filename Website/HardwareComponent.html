@@ -1,0 +1,242 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS/CSS.css">
+    <link rel="stylesheet" href="CSS/CSSComponent.css">
+    <title>Hardware Components Page</title>
+</head>
+
+
+<body onload="fadeIn();" class="default">
+
+<!--The background initialiser-->
+
+    <div id="Table" style="position:absolute; z-index:-10;margin-top: -10; margin-left: -10; opacity: 0.5;" > 
+
+        <div class="WallpaperLeftDiag" style="z-index: -11"></div>
+
+        <div class="WallpaperMiddleDiag" style="z-index: -10"></div>
+
+        <div class="WallpaperRightDiag" style="z-index: -11"></div>
+
+    </div>
+
+<!-- Background for each hobby and their sectors -->
+    <div id="AuxTable" style="position:absolute; z-index:-9; margin-top: 1070px;margin-left: -10;">
+
+        <div class="ComponentImg1" ></div>
+
+        <div class="ComponentImg2" ></div>
+
+        <div class="ComponentImg3" ></div>
+
+        <div class="ComponentImg4" ></div>
+
+        <div class="ComponentImg5" ></div>
+
+        <div class="ComponentImg6" ></div>
+
+        <div class="ComponentImg7" ></div>
+
+        <div class="ComponentImg8" ></div>
+
+        <div class="ComponentImg9" ></div>
+
+        <div class="ComponentImg10" ></div>
+        
+    </div>
+
+<!--Transtion effect-->
+
+
+<div id="loader">
+
+
+    <!-- Titlebar -->
+        <div>
+            <h1 style="position:absolute; z-index:10; margin-left: 50px;" class="boxed">HARDWARE COMPONENTS</h1>
+        </div>
+    <!--Geometric design-->
+    
+        <div class="triangle-up" style="z-index:-4; position:absolute; right: 0;margin-top: -10px;"></div>
+        <div class="triangle-down" style="z-index:-5; position:absolute; right: 0;margin-top: -10px;"></div>
+
+    <!--Return Button-->
+    <div style="z-index: 20; position:absolute; right: 1%;margin-top: 10px;"><button class="custom-button" onclick="history.back()">Return</button></div>
+    
+    <!--Middle-content-->
+    
+            <div style="position:absolute; z-index: 10; padding-left:15%; padding-top: 300px;">
+    
+                <div style="width: 40%; padding: 5%;" class="boxed">
+                    <h2>Hardware-Component page</h2>
+            
+                    <p>
+                    Welcome to the Hardware-Component page. Here, basic information about what each component of a computer does and is, will be provided and presented.
+                    </p>
+                </div>
+    
+    <!-- buttons -->
+    
+                <ul>
+                    <li style = "display: inline;" ><a href="./HardwareMotivation.html"><button class="custom-button">Hardware Motivation</button></a></li>
+                    <li style = "display: inline;" ><a href="./Landing.html"><button class="custom-button">Landing Page</button></a></li>
+                    <li style = "display: inline;" ><a href="./HobbyRev.html"><button class="custom-button">Hobby</button></a></li>
+                </ul>
+                <ul>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('RAMID').scrollIntoView();" class="custom-button">RAM</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('CPUID').scrollIntoView();" class="custom-button">CPU</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('PSUID').scrollIntoView();" class="custom-button">PSU</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('GPUID').scrollIntoView();" class="custom-button">GPU</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('MOBOID').scrollIntoView();" class="custom-button">MOBO</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('StorageID').scrollIntoView();" class="custom-button">STORAGE</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('CaseID').scrollIntoView();" class="custom-button">CASE</button></li>
+                </ul>
+            </div>
+     
+</div>
+
+    <!-- Components -->
+
+    <!-- RAM -->
+    <div style="position:absolute; width:100%; margin-top: 980px; height: 600px;" id="RAMID">
+        <br>
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">&nbsp;RAM</h2>
+        <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+            RAM, also known as "Random Access memory", gives the whole system fast storage to work with. This high speed storage can be compared to our short term memory, serving quite similar purposes. Without the RAM,
+            system processes will get unbearably slow, to the point where the computer is barely usable. 
+            <br><br>
+            This is due to all currently important tasks having data which needs to be accessed quickly, since they're currently a part of a bigger program (These can be textures, values or any other kind of data). If these files are not at hand to 
+            the CPU, or any other component needing it, it has to wait until all data from the storage device is given to the CPU. If the data is bigger than the CPU Cache, then the CPU has to slow itself down due to the slow relative speed of the storage device. 
+            <br><br>
+            Even though SSDs nowadays relatively reach unnecessarily high speeds, they still cannot handle the special job of RAM, which requires being both speedy and constantly being written to.
+        </p>
+    </div>
+    
+    <!-- CPU -->
+    <div style=" position:absolute; width:100%; margin-top: 1680px; height: 600px;" id="CPUID">
+        <br>
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">&nbsp;CPU</h2>
+        <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+            The CPU, also known as "Central processing unit" is the main processor of the entire system, like the name suggests. Without it, nothing gets processed, due to it being the only handler of every process which 
+            any piece of software may request it to do.
+            <br><br>
+            The "Central" part of "CPU" emphasizes that there are other processing units in the system. That is correct. GPUs, for example, can handle video and graphical workloads hugely better than a CPU.
+            Storage controllers, which are found in every non-volative storage device, handle the organization of the data found within its storage platters or flash chips. There are many more important processing units which can be found 
+            in computers, but it is all reliant on the CPU nonetheless. Once again, no matter what job an auxiliary processing unit may have, its needed data always has to first be handled by the CPU.
+    </div>
+    
+    <!-- PSU -->
+    <div style=" position:absolute; width:100%; margin-top: 2280px; height: 600px;" id="PSUID">
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed"> PSU</h2>
+        <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+            The PSU, also known as "Power Supply Unit", takes the 220 volt AC power off a regular outlet and converts it to DC power. This is then divided for all the components needing different Voltages. Without it, there simply won't be any power running to the computer.
+            Leaving the AC power alone and routing it towards the components will cause the whole system to be permanently damaged beyond repair. 
+            <br><br>
+            The PSU converts wall power (220V AC) to 3 outputting voltages (12v, 5v, 3.3v DC). Each component has its own connector for power, the most notable ones being the 4 + 4 pin EPS connector for the CPU,
+            6 + 2 PCI-e connectors for PCI-e cards, i.e. graphics cards, SATA and the iconic 20 + 4 pin ATX connector for the motherboard. Old connectors, like MOLEX, are not as common as they used to be and
+            are sometimes lacking in modern PSUs. The most commonly used voltage is 12v. This is good to know, since Intel, a major player in not only the CPU manufacturing scene, but also hardware in general, is interested to allocating
+            the 12v to 3.3v and 5v conversion over to the motherboards. Other than 12v, other voltages aren't needed except for storage, with the more fine power management already being taking care of by the motherboard.
+        </p>
+    </div>
+
+    <!-- GPU -->
+    <div style=" position:absolute; width:100%; margin-top: 2980px; height: 600px;" id="GPUID">
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed"> GPU</h2>
+        <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+            The GPU, also known as "Graphical processing unit", allow for better performance in terms of rendering than a normal CPU and are also most commonly found on graphics cards. Without it, the Computer wouldn't be able to display anything to a monitor,
+            although it theoretically may still work, albeit with very difficult handling.
+            <br><br>
+            While it is not strictly necessary to have a discrete graphical solution due to the integrated graphics found in most CPUs, others may see the need for such power. A well known example are gamers, needing the speedy graphical power in order
+            to achieve fast-time rendering for games. But GPUs are not just made for gaming, in fact, they serve many more important roles within society. GPUs can once again be used for rendering complex scenes, used in CAD for precision designing, AI learning and other, rather
+            obscure applications like software-RAID.
+        </p>
+    </div>
+
+    <!-- MOBO -->
+    <div style=" position:absolute; width:100%; margin-top: 3580px; height: 600px;" id="MOBOID">
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed"> Motherboard</h2>
+        <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+            The motherboard or mainboard is the board to which all components connect to in one way or another. Without it, nothing can communicate with each other and most importantly reach the CPU.
+            While old computers may have relied on cables to connect all components with each other, it is quite simply too inefficient, dangerous and risky to use the same "Cable-connection" style on modern 
+            computers, not only due to the increased power consumption, but because of the imprecision of using cables, which can disfigure the data travelling between them.
+
+            Nowadays, there are many motherboard options for a builder to choose from and due to today's advancements in technology, purchasing a low-end motherboard barely alters performance.
+            They also come in different sizes, which can fit in small form factor cases, which people with little real-estate may find useful. 
+            Furthermore, if one may find the need for more PCI-e expansion, whether it be for more NVMe storage or PCI-e cards, one may purchase an expensive one. 
+            This lack of restriction regarding the choice of motherboards allows for extensive personalization for a computer.
+        </p>
+    </div>
+
+    <!-- Storage -->
+    <div style=" position:absolute; width:100%; margin-top: 4280px; height: 600px;" id="StorageID">
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed"> Storage</h2>
+        <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+                Under the term "Storage" there are a lot of things to understand from. Basically, conventional storage, also known as non-volatile storage, provide a non-volatile (Not loosing of data once power has been cut) storage space to
+                store the OS of the computer and many more things which the user can put into. Without it, there simply wouldn't be any space to store anything meaningful inside of a computer.
+    
+                There are also two major types of storage devices, those being SSDs, also known as "Solid State Drives" or HDDs, also known as "Hard disk drives". The difference between these two being
+                that SSDs, like the name suggests, use solid and static NAND-flash chips (Which can be also found in USB-sticks) in order to store data, unlike HDDs which use a hard platter spinning at
+                high speeds to store data.
+
+                Furthermore, storage can be further divided by their interface and / or protocol. This is inherently not unique to storage, but unlike RAM for example, the storage types can be used interchangeably
+                and are backwards compatible. While DDR4 RAM cannot be used on a DDR5 system, or an Intel 10th gen processor cannot be used on an Intel 9th gen system, storage on the other hand, can be dragged towards a much
+                more modern system.
+            </p>
+    </div>
+        <!-- Storage SATA -->
+        <div style=" position:absolute; width:100%; margin-top: 4880px; height: 600px;" id="StorageSATAID">
+            <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">SATA Storage </h2>
+            <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+                SATA, also knows as "Serial Advanced Technology Attachment" is an interface which has been introduced in 2003 and used commonly ever since. Being the most preferred interface option for a storage device for years, even today,
+                made it the most common sight for all computer enthusiasts builders. SATA might not be the fastest storage interface today, but due to its years of dominance and great maturity, one can be certain that a SATA drive is still values today, even if it may be old.
+                
+                SATA drives can also come in 3 distinct form factors, 2.5", M.2 and 3.5". Both 2.5" and 3.5" form factors are used by HDDs, while SSDs are only restricted to their 2.5" form factor, due to their compactness. For that exact reason, SATA SSDs can also
+                be found in the "M.2" form factor, making them compacter than even the small 2.5" size, but lacking the NVMe protocol which only PCI-e drives offer.
+                
+                </p>
+        </div>
+    
+            <!-- Storage IDE-->
+    <div style=" position:absolute; width:100%; margin-top: 5580px; height: 600px;" id="StorageIDEID">
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">IDE Storage</h2>
+        <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+            IDE, standing for "Integrated Drive Electronics" is a dead interface, one not to be found on modern day motherboards, due to it being superseded by SATA.
+            At the time of IDEs common use, hard drives were the only option available when it came to non-volatile storage. This connection interface, on top of not only being cumbersome to work with, was incredibly slow even at the time.
+            With the well known unresponsiveness of a hard drive, it is no wonder why it eventually was replaced by SATA. Devices which use the IDE interface are close to worthless, only being of use to
+            collectors of old hardware and computer-enthusiasts who specialize on old technology.
+            </p>
+    </div>
+    
+        <!-- Storage PCI-e -->
+        <div style=" position:absolute; width:100%; margin-top: 6280px; height: 600px;" id="StoragePCIeID">
+            <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">PCI-e Storage</h2>
+            <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+                    PCI-e storage is a relatively new, now widespread storage interface. Unlike SATA, these drives which rely on the PCI-e interface (Commonly used by graphics cards),
+                    are much faster and compact. NVMe is the current protocol for PCI-e drives. These drives are commonly found in the "M.2" form factor, being comparable to small strips, unlike the regular 2.5" or 3.5" drives
+                    PCI-e drives can also be found as an expansion card, which do not require the motherboard to have an M.2 slot with PCI-e support, but instead clip right into the regular
+                    PCI-e lanes commonly found on every motherboard.
+                </p>
+        </div>
+    <!-- Case -->
+        <div style=" position:absolute; width:100%; margin-top: 6880px; height: 600px;" id="CaseID">
+            <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">Case</h2>
+            <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+                    Computer cases are relatively simple, only needing to hold the components found within a computer. While cases themselves might not be as unique to one another in terms of usefulness, companies still provide excellent
+                    choices for different purposes and prices. If one only needs a budget computer for light office work, a rather modest, but simple and cheap case may suffice. Others may like showing off their components, buying cases which 
+                    include a lot of glass side panels, to view one's expensive components inside, preferably with LED lights to top it off. If both aforementioned options are not of one's preferences, then one may choose a compact case, or a utilitarian case with
+                    a lot of expansion options. 
+
+                    Either way, cases can be another way of expressing the personalization of one's computer, or lack thereof.
+                </p>
+        </div>    
+    
+    <script src="Javascript/JavaScriptFade.js"></script>
+    <script src="Javascript/JavaScriptAuxOffset.js"></script>
+    <script src="Javascript/JavaScriptMainOffset.js"></script>
+    <script src="Javascript/JavaScriptSmoothScroll.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,195 @@
+    /* Wallpaper table */
+    #Table{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "A B C"
+        ;
+        width: 100%;
+        margin-left: -10; 
+        margin-top: -10;
+}
+
+/* Auxiliary table for anything other than the 3 main images */
+    #AuxTable{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "1"
+    "2"
+    "3"
+    "4"
+    "5"
+    "6"
+    "7"
+    "8"
+    "9"
+    "10"
+    ;
+    width: 100%;
+    margin-left: -10; 
+    margin-top: -10;
+}
+
+/*Regular wallpapers*/
+    .WallpaperLeft{
+        display: grid;
+        opacity: 0.5;
+        grid-area: "A";
+        background-size: cover;
+        background-image: url("Assets_Documents/WallPaperImg1.jpg");
+        min-height: 1080px;
+}
+    .WallpaperMiddle{
+        display: grid;
+        opacity: 0.5;
+        grid-area: "B";
+        background-size: cover;
+        background-image: url("Assets_Documents/WallPaperImg2.png");
+        min-height: 1080px;
+}
+    .WallpaperRight{
+        display: grid;
+        opacity: 0.5;
+        grid-area: "C";
+        background-size: cover;
+        background-image: url("Assets_Documents/WallPaperImg3.jpg");
+        min-height: 1080px;
+}
+    
+/*Diagonal wallpaper images*/
+    .WallpaperLeftDiag{
+        display: grid;
+        grid-area: "A B";
+        background-size: cover;
+        background-image: url("Assets_Documents/RAM.jpg");
+        min-height: 1080px;
+        width: 180%;
+        background-position: 50% 50%;
+}
+    .WallpaperMiddleDiag{
+        display: grid;
+        grid-area: "B";
+        background-size: cover;
+        background-image: url("Assets_Documents/CPURyzen.jpg");
+        min-height: 1080px;
+        transform: skew(-10deg);
+        width: 125%;
+        margin-right:20%;
+        margin-left:10%;
+        background-position: 50% 50%;
+}
+    .WallpaperRightDiag{
+        display: grid;
+        grid-area: "B";
+        background-size: cover;
+        background-image: url("Assets_Documents/MSIMotherboard.jpg");
+        min-height: 1080px;
+        width: 100%;
+        margin-right:250px;
+        background-position: 50% 50%;
+}
+
+/* Geometric shapes */
+
+/*Triangles*/
+    .triangle-up {
+	border-top: 25px;
+	border-right: 550px solid rgb(42, 105, 0);
+	border-bottom: 100px solid transparent;
+}
+    .triangle-down {
+	border-top: 25px;
+	border-right: 300px solid rgb(148, 255, 76);
+	border-bottom: 200px solid transparent;
+}
+
+/* Other classes and IDs */
+
+/*Needs to be assigned to all DIVs that fade in*/
+#loader{
+opacity:0;
+}
+
+/* Default formatting */
+.default{
+    font-size: x-large;
+    color:white;
+    font-family: lato, sans-serif;
+    background-color: grey;
+}
+
+/* The background box behind texts */
+.boxed{
+    background-color: rgba(0,0,0,0.75); 
+    border: 10px solid rgba(0,0,0,0.75);
+    border-radius: 3px;
+}
+
+.custom-button {
+    display: inline-block;
+    margin: 5px; /* space between buttons */
+    background: #000000e5; /* background color */
+    color: #ffffff; /* text color */
+    border-radius: 10px; /* rounded corners */
+    padding: 8px 16px; /* space around text */
+    transition: all 0.2s;
+}
+
+/* Changes button color on hover */
+.custom-button:hover {
+    background: #666;
+    color: #c1e1e0;
+}
+
+/*Scrolls smoothly to destination on any scroll-buttons. Not compatible with every Browser and most likely has to be activated in the chrome "flags" page.*/
+html{
+   scroll-behavior: smooth;
+}
+
+  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .fullcol-S{
+        display:flex;
+        justify-content: center;
+        }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .fullcol-S{
+        width: 80%;
+        margin-left: 50px;
+        }
+        
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .fullcol-S{
+        width: 80%;
+        margin-left: 50px;
+        }
+        
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .fullcol-S{
+        width: 80%;
+        margin-left: 50px;
+        }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .defaultTitle{
+        width: 30%;
+        margin-left: 50px;
+    }
+}

@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS/CSS.css">
+    <link rel="stylesheet" href="CSS/CSSHobby.css">
+    <title>Hobby Page</title>
+</head>
+
+
+<body onload="fadeIn();" class="default">
+
+
+<!--The background initialiser-->
+
+    <div id="Table" style="position:absolute; z-index:-10;" > 
+
+        <div class="WallpaperLeft" ></div>
+
+        <div class="WallpaperMiddle" ></div>
+
+        <div class="WallpaperRight" ></div>
+
+    </div>
+
+<!-- Background for each hobby and their sectors -->
+    <div id="AuxTable" style="position:absolute; z-index:-9; margin-top: 1070px;">
+
+        <div class="HobbyImg1" ></div>
+
+        <div class="HobbyImg2" ></div>
+
+        <div class="HobbyImg3" ></div>
+
+        <div class="HobbyImg4" ></div>
+
+        <div class="HobbyImg5" ></div>
+
+    </div>
+
+<!--Transtion effect-->
+
+
+<div id="loader" style="opacity: 0;">
+
+
+    <!-- Titlebar -->
+        <div>
+            <h1 style="position:absolute; z-index:10; margin-left: 50px;" class="boxed">HOBBY PAGE</h1>
+        </div>
+    <!--Geometric design-->
+    
+        <div class="triangle-up" style="z-index:-4; position:absolute; right: 0;margin-top: -10px;"></div>
+        <div class="triangle-down" style="z-index:-5; position:absolute; right: 0;margin-top: -10px;"></div>
+
+    <!--Return Button-->
+        <div style="z-index: 20; position:absolute; right: 1%;margin-top: 10px;"><button class="custom-button" onclick="history.back()">Return</button></div>
+    
+    <!--Middle-content-->
+    
+            <div style="position:absolute; z-index: 10; padding-left:15%; padding-top: 300px; ">
+    
+                <div style="width: 40%; padding: 5%;" class="boxed">
+                    <h2>Hobby Page</h2>
+            
+                    <p>
+                    Welcome to the hobby page. All my hobbies related to the IT-Hemisphere will be described and presented here.
+                    </p>
+                </div>
+    
+    <!-- buttons -->
+    
+                <ul>
+                    <li style = "display: inline;" ><a href="./Persona.html"><button class="custom-button">About myself...</button></a></li>
+                    <li style = "display: inline;" ><a href="./Landing.html"><button class="custom-button">Landing Page</button></a></li>
+                    <li style = "display: inline;" ><a href="./HardwareMotivation.html"><button class="custom-button">Hardware Motivation</button></a></li>
+                </ul>
+                <ul>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('PCBuilding').scrollIntoView();" class="custom-button">PC-Building</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('Blender').scrollIntoView();" class="custom-button">Blender</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('CSharp').scrollIntoView();" class="custom-button">C#</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('ImgMan').scrollIntoView();" class="custom-button">Image Manipulation</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('VidMan').scrollIntoView();" class="custom-button">Video Manipulation</button></li>
+                </ul>
+            </div>
+     
+    </div>
+
+    <!-- All Hobbies and their sectors -->
+
+    <!-- PC-Building -->
+    <div style="position:absolute; width:100%; margin-top: 950px; height: 600px;" id="PCBuilding">
+        <br>
+        <a href="./HardwareMotivation.html" style="position: absolute; z-index: 10; right:10%;"><button class="custom-button">Link to separate hardware-page</button></a>
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">PC-Building</h2>
+        <p style="margin-left: 5%; margin-right: 20%;" class="boxed">
+            PC-Building involves both the construction of selected components and the selection of the components themselves.
+            <br>
+            PC-Building allows me to express creativity and innovative thinking by carefully selecting which component most optimally fits for a situation and
+            allows me to use said creativity to optimize my creation.
+            <br>
+            Throughout 4 years I have repaired and constructed numerous desktop computers and laptops, including my personal computer.
+        </p>
+    </div>
+    
+    <!-- Blender -->
+    <div style=" position:absolute; width:100%; margin-top: 1550px; height: 600px;" id="Blender">
+        <br>
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">BLENDER</h2>
+        <p style="margin-left: 5%; margin-right: 20%;" class="boxed">
+            Blender involves 3D-Modelling, animating and rendering. 
+            <br>
+            Because I deeply appreciate both expanding my knowledge in the IT hemisphere and learning new skills in order to use them in other projects, I took
+            a liking towards 3D-Modelling. Like coding, 3D-Modelling is another way to turn concepts into reality and to nicely compliments any project involving both 3D-Modelling and
+            coding.
+            <br>
+            Throughout 3 years I have both animated and 3D-Modelled meshes and animations most notably for games based on Unity.
+        </p>
+    </div>
+    
+    <!-- C# -->
+    <div style=" position:absolute; width:100%; margin-top: 2100px; height: 600px;" id="CSharp">    <br>
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">C#</h2>
+        <p style="margin-left: 5%; margin-right: 20%;" class="boxed">
+            Programming involves writing software solutions for any problem or project at hand and is another way of communicating directly with computers. 
+            C# is one branch of the C family programming language, which is extensively used both professionally and by hobbyists for their projects.
+            <br>
+            Due to C# being another form of creative expression, being mainly based on logic and the groundwork of every other program and its purpose, I have decided for it to be my main professional direction.$
+            A lot of concepts, whether they be games, automations, applications or projects, can be implemented with c# or any equivalent coding language, each with their own specialization. With it also being more localized 
+            to a computer, like many of my other hobbies, I concentrate better and achieve a better workflow, due to it being my preferred way of working.
+            <br>
+            Throughout 2 years I have started a Unity course to lean the basics of both Unity and C# and worked on many projects within my current school.
+        </p>
+    </div>
+
+    <!-- Image manipulation -->
+    <div style="position:absolute; width:100%; margin-top: 2700px; height: 600px;" id="ImgMan">
+        <br>
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">IMAGE MANIPULATION</h2>
+        <p style="margin-left: 5%; margin-right: 20%;" class="boxed">
+            Image manipulation involves editing a photo on a program.
+            <br>
+            Image manipulation, comparable to Blender and video editing, is localized within a single program and being another tool which I may use
+            for any purpose I need, regardless if the use is professional or personal.
+            <br>
+            Throughout 3 years I have created many wallpaper images, profiles and other designs for myself to use.
+        </p>
+    </div>
+
+    <!-- Video editing -->
+    <div style="position:absolute; width:100%; margin-top: 3300px; height: 600px;" id="VidMan">
+        <br>
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">VIDEO EDITING</h2>
+        <p style="margin-left: 5%; margin-right: 20%;" class="boxed">
+            Video editing involves editing a video by manipulating a video with splicing, effects or any other ways to achieve the results needed.
+            <br>
+            Due to its similarity to image manipulation, getting to know video editing was a step which I was willing to take. While I do not work with videos
+            as much as I do with any other hobby, I still appreciate owning the ability to add another skill to my skill set, due to it being versatile when needed to
+            compliment another project.
+            <br>
+            Throughout 3 years I have made small snippets for various different purposes, mostly for personal use.
+        </p>
+    </div>
+    
+    <script src="Javascript/JavaScriptFade.js"></script>
+    <script src="Javascript/JavaScriptAuxOffset.js"></script>
+    <script src="Javascript/JavaScriptMainOffset.js"></script>
+</body>
+</html>
+
+
+

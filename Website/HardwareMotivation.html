@@ -1,0 +1,146 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS/CSS.css">
+    <link rel="stylesheet" href="CSS/CSSHardware.css">
+    <title>Hardware Motivational Page</title>
+</head>
+
+
+<body onload="fadeIn();" class="default">
+
+<!--The background initialiser-->
+
+    <div id="Table" style="position:absolute; z-index:-10;margin-top: -10; margin-left: -10; opacity: 0.5;" > 
+
+        <div class="WallpaperLeftDiag" style="z-index: -12"></div>
+
+        <div class="WallpaperMiddleDiag" style="z-index: -10"></div>
+
+        <div class="WallpaperRightDiag" style="z-index: -11"></div>
+
+    </div>
+
+<!-- Background for each hobby and their sectors -->
+    <div id="AuxTable" style="position:absolute; z-index:-9; margin-top: 1070px;margin-left: -10;">
+
+        <div class="HardwareImg1" ></div>
+
+        <div class="HardwareImg2" ></div>
+
+        <div class="HardwareImg3" ></div>
+
+    </div>
+
+<!--Transtion effect-->
+
+
+<div id="loader">
+
+
+    <!-- Titlebar -->
+        <div>
+            <h1 style="position:absolute; z-index:10; margin-left: 50px;" class="boxed">HARDWARE MOTIVATION</h1>
+        </div>
+    <!--Geometric design-->
+    
+        <div class="triangle-up" style="z-index:-4; position:absolute; right: 0;margin-top: -10px;"></div>
+        <div class="triangle-down" style="z-index:-5; position:absolute; right: 0;margin-top: -10px;"></div>
+
+    <!--Return Button-->
+    <div style="z-index: 20; position:absolute; right: 1%;margin-top: 10px;"><button class="custom-button" onclick="history.back()">Return</button></div>
+    
+    <!--Middle-content-->
+    
+            <div style="position:absolute; z-index: 10; padding-left:15%; padding-top: 300px;">
+    
+                <div style="width: 40%; padding: 5%;" class="boxed">
+                    <h2>Hardware-Motivation page</h2>
+            
+                    <p>
+                        Welcome to the Hardware-Motivation page. My motivational reasoning and more specifically opinion towards PC-building will be voiced here.
+                        <br><br>
+                        If more knowledge about hardware in general is needed, then the Hardware-Component page may be found linked underneath.
+                    </p>
+                </div>
+    
+    <!-- buttons -->
+    
+                <ul>
+                    <li style = "display: inline;" ><a href="./HardwareComponent.html"><button class="custom-button">Hardware Components</button></a></li>
+                    <li style = "display: inline;" ><a href="./Landing.html"><button class="custom-button">Landing Page</button></a></li>
+                    <li style = "display: inline;" ><a href="./HobbyRev.html"><button class="custom-button">Hobby</button></a></li>
+                </ul>
+                <ul>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('WhyDIY').scrollIntoView();" class="custom-button">Why Build computers yourself?</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('WhyBeau').scrollIntoView();" class="custom-button">Beauty of it?</button></li>
+                    <li style = "display: inline;" ><button onClick="document.getElementById('WhyLike').scrollIntoView();" class="custom-button">Why do I like it?</button></li>
+                </ul>
+            </div>
+     
+</div>
+
+    <!-- All questions and their sectors -->
+
+    <!-- Reason for PC-Building -->
+    <div style="position:absolute; width:100%; margin-top: 980px; height: 600px;" id="WhyDIY">
+        <br>
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">&nbsp;Why build computers yourself?</h2>
+        <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+            The common person may be startled or not interested at the idea of building computers, some may think it is too complicated, while others simply do not want to risk hundreds on building an expensive device,
+            that can be bought pre-assembled, without any hassle. Even if it means sacrificing endurance, modularity, repairability and most importantly, performance, many have little to no motivation to care.
+            <br>
+            <br>
+            While building computers has come a long way and now isn't as difficult to understand, it is still reasonable to be frightened at the idea of having to sit down and look for
+            all compatible components and potentially losing a lot of time and money.
+            <br>
+            <br>
+            But, even if it might seem overwhelming at first, one could watch any of the thousands of videos on the internet or browse any relevant forum to build computers. Also unlike before, taking the Do-It-Yourself route has 
+            become less of a niche and become more or less like a conceivable option for normal people to do, not only because of the prevalence of information, but also because of today's simplicity in hardware.
+            <br>
+            <br>
+            Still, while tutorials show how to build a computer, it is still mostly unknown what components to pick out, unless one opts to build the predefined build found inside a tutorial. This would have been more of a problem for beginners,
+            if not for helpful tools like PC-Part-Picker. This website, and many more, automatically check for compatible combinations of a list almost all components commonly found.
+        </p>
+    </div>
+    
+    <!-- Beauty of it? -->
+    <div style=" position:absolute; width:100%; margin-top: 1680px; height: 600px;" id="WhyBeau">
+        <br>
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed">&nbsp;Beauty of it?</h2>
+        <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+            PC building, history and news might seem boring to the average person, but as soon as the surface layer is broken, one can not only find out a lot about their computer,
+            but about the history of the components inside, technological differences of not only one's computer, but every component compared to each other. It is surprisingly an interesting world,
+             once a motivated person breaks the ice.
+            <br>
+            <br>
+            Not only that, but building computers can be quite relaxing and fun once it is not done for the first time. Knowing that you can service your custom-built computer at any time, while also knowing its true capabilities
+            is a useful thing to know. Even if you aren't interested in building more computers for your close friends or family, one can set up proper stations and reuse old ones for quality-of-life purposes, like
+            a NAS or a home-server, maybe even a router or a game server.
+        </p>
+    </div>
+    
+    <!-- Why do I like it? -->
+    <div style=" position:absolute; width:100%; margin-top: 2280px; height: 600px;" id="WhyLike">
+        <h2 style="margin-left: 5%; margin-right: 50%;" class="boxed"> Why do I like it?</h2>
+        <p style="margin-left: 5%; margin-right: 20%;font-size: smaller;" class="boxed">
+            I, personally, like anything hardware related not only for the reasons listed on the hobby page, but also for numerous other reasons, which depend on physical hardware.
+            <br>
+            <br>
+            Building computers alone allows me to creatively think about the use case of the computer (and what precautions I should take in accordance to it) and the budget-balancing between components.
+            Each use case, each environment and each user can drastically change how the computer should be built. All these things combined already make me truly appreciate PC-hardware. 
+            <br>
+            <br>
+            But it is not just building that I do, I also like soldering, repairing, troubleshooting, salvaging and recycling. This fits perfectly with the hardware side of things. Many computers get thrown away or ignored,
+            because they might think that it serves no use. It may be true to them, but to someone who specializes in it, it is a different story.
+        </p>
+    </div>
+    
+    <script src="Javascript/JavaScriptFade.js"></script>
+    <script src="Javascript/JavaScriptAuxOffset.js"></script>
+    <script src="Javascript/JavaScriptMainOffset.js"></script>
+</body>
+</html>
+
+
+
